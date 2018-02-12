@@ -1,0 +1,27 @@
+{
+    "name": "diskuti-gr",
+    "version": "0.1.0",
+    "description": "Online communication tools for grassroots communities",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/hsgr/webops/diskuti.gr"
+    },
+    "author": "Hackerspace.gr",
+    "license": "AGPL-3.0",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-eslint": "^3.0.1",
+        "gulp-stylelint": "^3.9.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.3.1"
+    },
+    "assets": [
+        "bootstrap/dist/css/bootstrap.min.css",
+        "font-awesome/css/font-awesome.min.css",
+        "font-awesome/fonts/*",
+        "jquery/dist/jquery.min.js"
+    ]
+}
