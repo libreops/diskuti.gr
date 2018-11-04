@@ -1,11 +1,10 @@
-# diskuti.gr
+<a href="https://diskuti.gr"><img src="https://diskuti.gr/static/img/diskuti.png" width="300"></a>
 
 This is the source code of [diskuti.gr](https://diskuti.gr). A service providing online communication tools for grassroots communities.
 
 ## Join
 
-[![irc](https://img.shields.io/badge/Matrix-%23hsgr:matrix.org-blue.svg)](https://riot.im/app/#/room/#hsgr:matrix.org)
-[![irc](https://img.shields.io/badge/IRC-%23hsgr%20on%20freenode-blue.svg)](https://webchat.freenode.net/?channels=hsgr)
+[![irc](https://img.shields.io/badge/Matrix-%23libreops:matrix.org-blue.svg)](https://riot.im/app/#/room/#libreops:matrix.org)
 
 ## License
 
