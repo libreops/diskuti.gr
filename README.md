@@ -2,6 +2,10 @@
 
 This is the source code of [diskuti.gr](https://diskuti.gr). A service providing online communication tools for grassroots communities.
 
+## Support
+
+![Liberapay receiving](https://img.shields.io/liberapay/receives/libreops.svg)
+
 ## Join
 
 [![irc](https://img.shields.io/badge/Matrix-%23libreops:matrix.org-blue.svg)](https://riot.im/app/#/room/#libreops:matrix.org)
