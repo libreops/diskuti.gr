@@ -16,61 +16,51 @@
     <div class="page">
 
       <div class="container">
-        <div class="row page-header py-4">
-          <div class="col-md-12">
-            <a href="/">
-              <img alt="diskuti.gr" class="logo" src="static/img/diskuti.png">
-            </a>
-          </div>
-        </div>
-      </div>
+        <header class="py-3 text-center">
+          <a href="/"><img src="/static/img/diskuti.png" alt="diskuti" class="avatar"></a>
+        </header>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="container">
-            <h3>.about</h3>
-            <div class="well">
-              <p>
-                To diskuti.gr είναι ένα public mailing list service.
-                Ο σκοπός είναι να προσφέρεται ως υπηρεσία σε κοινότητες (projects, συλλογικότητες, κλπ)
-                που δεν έχουν πόρους ή την τεχνογνωσία να στήσουν μια mailing list.
-              </p>
-      	    </div>
-      	  </div>
-      	</div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="container">
-            <h3>.κοινότητες</h3>
-            <div class="well">
-              <p>
-                Κοινότητες που μέχρι στιγμής αξιοποιούν την υπηρεσία:
-              </p>
-              <ul>
-                <li>Sustainability Energy Models</li>
-              </ul>
+        <div class="card w-75 mx-auto">
+          <div class="card-header" data-l10n-id="about-title">
+            about
+            <div class="pull-right">
+              <span id="lang-selection"><span class="fa fa-language pr-2"></span>
+              <select onchange="currentLang=this.value;document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);" autocomplete="off">
+                <option id="lang-en" selected value="en">en</option>
+                <option id="lang-el" value="el">el</option>
+              </select>
             </div>
           </div>
+          <div class="card-body" data-l10n-id="about-text">
+            Diskuti is a public mailing list service.
+            Its purpose is to offer a mailing service to communities (projects, collectives, etc)
+            that don't have the resources or know-how to setup and maintain a mailing list.
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="container">
-            <h3>.privacy</h3>
-            <div class="well">
-              <p>
-                Εν μέρει το κίνητρο για τη δημιουργία του diskuti.gr ήταν να φτιαχτεί μια mailing list υπηρεσία
-                που θα παρακρατά τον ελάχιστο δυνατό όγκο (μετα)δεδομένων και μόνο αυτών που είναι απαραίτητα για τη λειτουργία του,
-                με σεβασμό στην ιδιωτικότητα των χρηστών.
-              </p>
-              <p>
-                Με αυτό το σκεπτικό δεν κρατάμε αρχέιο (archives) για τις λίστες.
-                Παράλληλα δεν κρατάμε στοιχεία πρόσβασης (access logs), τόσο μέσω email
-                όσο και στο παρόν website.
-            </div>
+        <div class="card w-75 mx-auto mt-4">
+          <div class="card-header" data-l10n-id="comm-title">
+            communities
+          </div>
+          <div class="card-body" data-l10n-id="comm-text">
+              <p>Communities that use the service at the momemnt:</p><ul><li>Sustainability Energy Models</li><li>Chimeres</li></ul><p>To request a new mailing list, to open a support ticket, send us an email.</p><p><i class="fa fa-envelope-o mr-1" aria-hidden="true"></i><img src="https://libreops.cc/static/img/email.svg"></p>
+          </div>
+        </div>
+
+        <div class="card w-75 mx-auto mt-4">
+          <div class="card-header" data-l10n-id="priv-title">
+            privacy
+          </div>
+          <div class="card-body" data-l10n-id="priv-text">
+            <p>
+              One of the motives for creating Diskuti was to build a mailing list service
+              that will keep a minimum amount of (meta)data and only the bare minimum that is required for its core functionality,
+              in respect to users privacy.
+            </p>
+            <p>
+              Therefor we don't keep list archives. We also don't keep any access logs,
+              either for emails or for this website.
+            </p>
           </div>
         </div>
       </div>
