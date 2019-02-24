@@ -4,7 +4,7 @@ This is the source code of [diskuti.gr](https://diskuti.gr). A service providing
 
 ## Support
 
-![Liberapay receiving](https://img.shields.io/liberapay/receives/libreops.svg)
+[![Liberapay](https://libreops.cc/static/img/liberapay.svg)](https://liberapay.com/libreops/donate)
 
 ## Join
 
